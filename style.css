@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container::after {
+  content: '';
+  clear: both;
+  display: inline-block;
+}
+.square{
+  width: 402px;
+  height: 402px;
+  margin: 80px auto;
+  border: 1px solid black;
+}
+.smallsquare, .smallsquare-red{
+  background-color: white;
+  border: 1px solid black;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  float: right;
+}
